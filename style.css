@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://www.thebeachbutlers.com/wp-content/uploads/2019/02/publix-groceries.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.main {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 22px);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+}
